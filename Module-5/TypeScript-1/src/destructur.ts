@@ -1,3 +1,5 @@
+import { getUser } from "./unllableUnkoneNever";
+
 const myInfo = {
   name: "nahid",
   id: 111,
@@ -30,11 +32,7 @@ const { id: myid, age, class_name } = myInfo;
 
 const bundu = ["Sagor", "Abir", "Adiba"];
 
-const [,,FF] = bundu;
+const [, , FF] = bundu;
 
 console.log(FF); // ---> output Adiba
-
-
-
-
-
+getUser(null);
